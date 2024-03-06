@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 50px;
+}
+
+.digits {
+    margin: 0;
+    color: white;
+    font-size: 90px;
+    padding: 50px 20px 0 0;
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    text-align: end;
+}
+
+.buttons, .buttons2, .buttons3, .buttons4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.buttons5 {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    background-color: #959595;
+}
+
+.buttons5 .buttonSpecial {
+    height: 80px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    text-align: start;
+    padding-left: 35px;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn4 button{
+    background-color: #FF9D00;
+    color: white;
+    font-size: 50px;
+}
+
+.buttons5 .btn3 button {
+    background-color: #FF9D00;
+    color: white;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        scale: 0.9;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        scale: 0.8;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    body {
+        scale: 0.7;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        scale: 0.6;
+    }
+}
